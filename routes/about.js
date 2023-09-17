@@ -35,7 +35,6 @@ router.get('/api/tec', function (req, res, next) {
 
 router.get('/tec', function (req, res, next) {
     const imagenRandom = imagenes[Math.floor(Math.random() * imagenes.length)];
-
     res.render('about', {
         ...tecInfo,
         image: imagenRandom
