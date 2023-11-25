@@ -7,7 +7,7 @@
           Crear proyecto
         </span>
       </div>
-      <form autocomplete="off" action="/project/add" method="post">
+      <form autocomplete='off' action="/project/edit/{{ project._id }}" method="put">
         <div class="card-content">
           <div class='input-field'>
             <label for='project-name'>Nombre de tu idea de proyecto</label>
